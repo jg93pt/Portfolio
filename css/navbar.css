@@ -1,5 +1,5 @@
 /*Regular layout*/
-/* Roboto regular */
+/* Fonts*/
 @font-face {
   font-family: "Roboto";
   src: url("/Portfolio/fonts/Roboto-Black.ttf") format('truetype');
@@ -74,8 +74,69 @@
 
 body{
   font-family: "Roboto", sans-serif;
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+/*Navbar*/
+.navbar{
+  background: #FAFBFC;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+
+#navbar-text{
+  color: #243B55;
+}
+
+.container-fluid{
+  max-width: 1980px;
+}
+
+.nav-link:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius:10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transition: box-shadow 0.5s;
 }
 
 
-/*Navbar*/
+/*Small-Devices*/
+@media (max-width:768px){
+  .nav-line{
+    display: none;
+  }
+  
+  .container-fluid{
+  margin-left: 0rem!important;
+}
+.navbar-toggler {
+  background-color: #000;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link:checked{
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand:checked{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius:10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transition: box-shadow 0.5s;
+}
+}
