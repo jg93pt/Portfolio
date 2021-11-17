@@ -92,7 +92,7 @@ body{
   color: #243B55;
 }
 
-.container-xxl{
+#container-max-wh{
   max-width: 1980px;
 }
 
@@ -118,7 +118,7 @@ body{
   }
   
   .container-fluid{
-  margin-left: 0rem!important;
+  margin-left: 0rem !important;
 }
 .navbar-toggler {
   background-color: #000;
@@ -128,12 +128,12 @@ body{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.nav-link:checked{
+.nav-link:hover{
   color: black;
   font-weight: bold;
 }
 
-.navbar-brand:checked{
+.navbar-brand:hover{
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius:10px;
   padding-left: 0.5rem;
