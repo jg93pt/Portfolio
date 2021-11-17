@@ -104,9 +104,10 @@ body{
 .navbar-brand:hover{
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius:10px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  transition: box-shadow 0.5s;
+  padding-top: 0.1rem;
+  padding-right:0.1px;
+  padding-left: 0.1px;
+  transition: box-shadow 0.2s;
 }
 
 
