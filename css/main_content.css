@@ -8,6 +8,7 @@
 }
 
 .main-title-col{
+  position: relative;
   opacity: 1;
   max-width: 1000px;
 }
@@ -45,7 +46,7 @@
 }
 
 /*small screens*/
-@media (max-width:768px) {
+@media (max-width:767px) {
 .md-no{
   display: none;
 }
