@@ -1,0 +1,14 @@
+/*Footer*/
+.footer-bg{
+  background-color: #FAFBFC;
+}
+
+.copyright{
+  color: #000;
+  text-decoration: none;
+}
+
+.copyright:hover{
+  color: #000;
+  text-decoration: underline;
+}
