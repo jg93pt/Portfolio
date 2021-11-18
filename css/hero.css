@@ -1,0 +1,39 @@
+/*HERO*/
+/*About me*/
+#jg93-img{
+  background-image: url(../images/jg93.jpg);
+  background-size: cover;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+ 
+}
+
+.justify-txt{
+  text-align: justify;
+}
+
+/*big devices*/
+@media (min-width: 1361px) and (max-width: 1500px)
+{
+  #jg93-img{
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1501px)
+{
+  #jg93-img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*lower devices*/
+@media (max-width: 1199px) {
+  #lower-devices{
+      margin-top: 1rem!important;
+  }
+}
