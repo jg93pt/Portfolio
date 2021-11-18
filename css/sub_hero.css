@@ -33,5 +33,49 @@
   .skills-sm{
     margin-top: 3rem !important;
   }
+}
 
+/*Contact me*/
+.btn-primary{
+  background-color: rgba(149, 147, 147, 0.219);
+  border-color: rgba(149, 147, 147, 0.219);
+  color:#000;
+  margin-left: 20px;
+}
+
+.btn-primary:hover{
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.letter-space{
+  letter-spacing: 5px;
+}
+
+.icon-img{
+  width: 30px;
+  margin-left: -10px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.only-sm{
+  display: none;
+}
+
+@media (max-width:577px) 
+{
+  .only-sm{
+    display: block;
+  }
+
+  .only-sm:hover{
+    opacity: 0.5;
+  }
+
+  .btn-primary{
+    display: none;
+  }
+  
 }
