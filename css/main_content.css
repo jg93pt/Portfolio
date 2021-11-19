@@ -46,10 +46,6 @@
 
 /*small screens*/
 @media (max-width:767px) {
-  #main-img{
-    height: 650px;
-  }
-
 .md-no{
   display: none;
 }
