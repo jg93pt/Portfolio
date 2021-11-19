@@ -2,25 +2,24 @@
 #main-img{
   background-image: url(../images/ocean-mountains.jpg);
   background-size: cover;
-  background-position: center top;
-  height: 100vh;
+  background-position: center top no-repeat;
   opacity: 0.8;
+  height: 100vh;
 }
 
 .main-title-col{
-  position: relative;
-  opacity: 1;
   max-width: 1000px;
+  border-radius: 20px;
 }
 
 .main-title-col:hover{
-  border-radius: 20px;
   background: #36D1DC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transform: translateY(10px);
   transition: 1s linear;
 }
+
 
 .txtd-none{
   text-decoration: none;
@@ -47,11 +46,14 @@
 
 /*small screens*/
 @media (max-width:767px) {
+  #main-img{
+    height: 400px;
+  }
+
 .md-no{
   display: none;
 }
   .main-title-col{
-    opacity: 1;
     border-radius: 20px;
     max-width: 1980px;
     background: #36D1DC;  /* fallback for old browsers */
