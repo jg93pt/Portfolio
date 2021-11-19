@@ -12,3 +12,12 @@
   color: #000;
   text-decoration: underline;
 }
+
+#br-github{
+  border-bottom: 1px solid #D0D0D0;
+  padding-bottom: 2rem!important;
+}
+
+#pt-linkedin{
+  padding-top: 2rem!important;
+}
