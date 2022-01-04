@@ -4,6 +4,10 @@
   max-width: 30%;
   max-height: 80%;
 }
+  /*Only for skills after the first line*/
+.skills-below-firstline {
+  padding-top: 5%;
+}
 
 .skills-img:hover{
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
