@@ -7,7 +7,6 @@
     <title>jg93</title>
     <!-- BOOTSTRAP 5 -->
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!--FONTS-->
     <!--CUSTOM CSS-->
     <link href="./css/navbar.css" rel="stylesheet" type="text/css" />
     <link href="./css/main_content.css" rel="stylesheet" type="text/css" />
@@ -85,8 +84,74 @@
   </div>
    </div>
  <!--Work-->
+ 
   <div class="row ms-5 me-5 shadow-lg p-3 mb-5 bg-body rounded" id="work">
     <h5 class="text-center"><b>Work</b></h5>
+    <!--CAROUSEL B5 START-->
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+      <h5 class="text-center mt-2">HTML and CSS Development</h5>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="card">
+                  <div class="img-wrapper"><img src="images/apple-clone.jpg" class="d-block w-100" alt="apple-clone"> </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Apple Clone</h5>
+                      <p class="card-text">Without Bootstrap</p>
+                      <a href="https://apple-clone-jg93.netlify.app/" target="_blank" class="btn btn-primary">Go to Website</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card">
+                  <div class="img-wrapper"><img src="images/newsweek-clone.jpg" class="d-block w-100" alt="newsweek-clone"> </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Newsweek Clone</h5>
+                      <p class="card-text">Bootstrap 3</p>
+                      <a href="https://newsweek-clone-jg93.netlify.app/" target="_blank" class="btn btn-primary">Go to Website</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card">
+                  <div class="img-wrapper"><img src="images/newsairbnb-clone.jpg" class="d-block w-100" alt="newsairbnb-clone"> </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Newsairbnb Clone</h5>
+                      <p class="card-text">Bootstrap 4</p>
+                      <a href="https://newsairbnb-clone-jg93.netlify.app/" class="btn btn-primary">Go to Website</a>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+                <div class="img-wrapper"><img src="images/placeholder.jpg" class="d-block w-100" alt="newsairbnb-clone"> </div>
+                <div class="card-body">
+                    <h5 class="card-title">Placeholder</h5>
+                    <p class="card-text">Developing...</p>
+                    <a href="#" class="btn btn-primary">Go to Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+              <div class="img-wrapper"><img src="images/placeholder.jpg" class="d-block w-100" alt="newsairbnb-clone"> </div>
+              <div class="card-body">
+                  <h5 class="card-title">Placeholder</h5>
+                  <p class="card-text">Developing...</p>
+                  <a href="#" class="btn btn-primary">Go to Website</a>
+              </div>
+          </div>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+    <!--CAROUSEL B5 END-->
     <div class="col-lg-4 text-center work-low-devices mt-3 work-underline">
       <b>Apple Clone</b>
       <a href="https://apple-clone-jg93.netlify.app/" target="_blank"><img src="images/apple-clone.JPG" class="mt-2 work-img  work-hover"></a>
@@ -161,5 +226,9 @@
 </footer>
       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <!--JQUERY-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!--CUSTOM JS-->
+     <script src="js/script.js"></script>
   </body>
 </html>
