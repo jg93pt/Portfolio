@@ -1,6 +1,16 @@
 //Carousel in Work Section
 //Carousel for HTML and CSS Development
 $(document).ready(function () {
+  //Add and Remove Class for Work Div for small and larger res.
+  $(function() {
+    if($(this).width() < 768) {
+      $('#work')
+      .removeClass('ms-5 me-5');
+    } else {
+      $('#work')
+      .addClass('ms-5 me-5');
+    }
+});
 var carouselHTMLANDCSS = function () {
 var multipleCardCarousel = document.querySelector(
   "#carouselHTMLCSS"
