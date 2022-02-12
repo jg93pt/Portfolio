@@ -1,0 +1,2 @@
+// For Work carousel images use this size:
+1059 w x 631 h
