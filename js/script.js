@@ -5,10 +5,11 @@ var carouselHTMLANDCSS = function () {
 var multipleCardCarousel = document.querySelector(
   "#carouselHTMLCSS"
 );
+var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+  interval: false,
+});
 if (window.matchMedia("(min-width: 768px)").matches) {
-  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-    interval: false,
-  });
+  carousel;
   var carouselWidth = $(".carousel-inner")[0].scrollWidth;
   var cardWidth = $(".carousel-item").width();
   var scrollPosition = 0;
@@ -40,10 +41,11 @@ var carouselJS = function () {
   var multipleCardCarousel = document.querySelector(
     "#carouselJS"
   );
+  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+    interval: false,
+  });
   if (window.matchMedia("(min-width: 768px)").matches) {
-    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-      interval: false,
-    });
+    carousel;
     var carouselWidth = $(".carousel-inner")[0].scrollWidth;
     var cardWidth = $(".carousel-item").width();
     var scrollPosition = 0;
@@ -75,10 +77,11 @@ var carouselDynamic = function () {
   var multipleCardCarousel = document.querySelector(
     "#carouseldynamic"
   );
+  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+    interval: false,
+  });
   if (window.matchMedia("(min-width: 768px)").matches) {
-    var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-      interval: false,
-    });
+    carousel;
     var carouselWidth = $(".carousel-inner")[0].scrollWidth;
     var cardWidth = $(".carousel-item").width();
     var scrollPosition = 0;
