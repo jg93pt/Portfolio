@@ -1,7 +1,7 @@
 //Carousel in Work Section
 $(document).ready(function () {
   //Add and Remove Class for Work Div for small and larger res.
-  $(function() {
+  window.onresize = function() {
     if($(this).width() < 768) {
       $('#work')
       .removeClass('ms-5 me-5');
@@ -9,7 +9,7 @@ $(document).ready(function () {
       $('#work')
       .addClass('ms-5 me-5');
     }
-});
+};
 
 //Carousel for HTML and CSS Development
 var carouselHTMLANDCSS = function () {
