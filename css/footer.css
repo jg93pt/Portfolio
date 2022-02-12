@@ -21,3 +21,26 @@
 #pt-linkedin{
   padding-top: 2rem!important;
 }
+
+.icon-license{
+  text-decoration: none;
+  color: #000;
+}
+
+.icon-license:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .icon-hand {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+.icon-hand-sm{
+  display: none;
+}
+}

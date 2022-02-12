@@ -1,10 +1,11 @@
 //Carousel in Work Section
 //Carousel for HTML and CSS Development
+$(document).ready(function () {
 var carouselHTMLANDCSS = function () {
 var multipleCardCarousel = document.querySelector(
   "#carouselHTMLCSS"
 );
-if (window.matchMedia("(min-width: 768px)").matches) {
+if (window.matchMedia("(min-width: 0px)").matches) {
   var carousel = new bootstrap.Carousel(multipleCardCarousel, {
     interval: false,
   });
@@ -39,7 +40,7 @@ var carouselJS = function () {
   var multipleCardCarousel = document.querySelector(
     "#carouselJS"
   );
-  if (window.matchMedia("(min-width: 768px)").matches) {
+  if (window.matchMedia("(min-width: 0px)").matches) {
     var carousel = new bootstrap.Carousel(multipleCardCarousel, {
       interval: false,
     });
@@ -74,7 +75,7 @@ var carouselDynamic = function () {
   var multipleCardCarousel = document.querySelector(
     "#carouseldynamic"
   );
-  if (window.matchMedia("(min-width: 768px)").matches) {
+  if (window.matchMedia("(min-width: 0px)").matches) {
     var carousel = new bootstrap.Carousel(multipleCardCarousel, {
       interval: false,
     });
@@ -108,3 +109,4 @@ var carouselDynamic = function () {
 carouselHTMLANDCSS();
 carouselJS();
 carouselDynamic();
+});
