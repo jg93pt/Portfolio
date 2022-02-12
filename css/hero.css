@@ -137,33 +137,11 @@
   
 }
 
-.work-img{
-  width: 100%;
-  height: 87%;
-  border:1px solid #000;
-  border-radius: 10px;
-}
-
-.work-hover:hover{
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  opacity: 0.5; 
-}
-
-.work-underline:hover{
-  text-decoration: underline;
-}
-
 /*lower devices*/
-@media (max-width:991px)
+@media (max-width:767px)
 {
-  .work-low-devices{
-    margin-top: 2rem!important;
-    margin-bottom: 2rem!important;
-  }
-  
   .work-bt-line{
     border-top: 1px solid #D0D0D0;
-    padding-top: 2rem!important;
+    margin-top: 3rem!important;
   }
- 
 }
