@@ -1,5 +1,4 @@
 //Carousel in Work Section
-//Carousel for HTML and CSS Development
 $(document).ready(function () {
   //Add and Remove Class for Work Div for small and larger res.
   $(function() {
@@ -11,6 +10,8 @@ $(document).ready(function () {
       .addClass('ms-5 me-5');
     }
 });
+
+//Carousel for HTML and CSS Development
 var carouselHTMLANDCSS = function () {
 var multipleCardCarousel = document.querySelector(
   "#carouselHTMLCSS"
