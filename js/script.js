@@ -119,8 +119,45 @@ var carouselDynamic = function () {
   }
   };
 
+   //Carousel for React Js
+var carouselReactJs = function () {
+  var multipleCardCarousel = document.querySelector(
+    "#carouselreactjs"
+  );
+  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+    interval: false,
+  });
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    carousel;
+    var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+    var cardWidth = $(".carousel-item").width();
+    var scrollPosition = 0;
+    $("#carouselreactjs .carousel-control-next").on("click", function () {
+      if (scrollPosition < carouselWidth - cardWidth * 4) {
+        scrollPosition += cardWidth;
+        $("#carouselreactjs .carousel-inner").animate(
+          { scrollLeft: scrollPosition },
+          600
+        );
+      }
+    });
+    $("#carouselreactjs .carousel-control-prev").on("click", function () {
+      if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        $("#carouselreactjs .carousel-inner").animate(
+          { scrollLeft: scrollPosition },
+          600
+        );
+      }
+    });
+  } else {
+    $(multipleCardCarousel).addClass("slide");
+  }
+  };
+
 //Initialize functions:
 carouselHTMLANDCSS();
 carouselJS();
 carouselDynamic();
+carouselReactJs();
 });
